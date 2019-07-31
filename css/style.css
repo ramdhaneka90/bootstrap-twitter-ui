@@ -1,0 +1,138 @@
+/* Global */
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+/* Sidebar */
+.sidebar {
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-logo {
+  padding-top: 10px;
+  padding-left: 46px;
+  padding-bottom: 20px;
+}
+
+.sidebar-logo .logo-active {
+  color: rgb(29, 161, 242);
+  font-size: 30px;
+}
+
+.sidebar ul {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sidebar-menu ul li {
+  display: block;
+}
+
+.sidebar-menu ul li a {
+  color: #000;
+  font-size: 20px;
+  padding: 5px 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+.sidebar-menu ul li a:hover {
+  color: rgb(29, 161, 242);
+  text-decoration: none;
+  background: rgba(29, 161, 242, 0.1);
+}
+
+.sidebar-menu ul li a.active {
+  color: rgb(29, 161, 242);
+}
+
+.sidebar-menu .btn-lg {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+/* Main Content */
+.main-content {
+  padding: 0px;
+  background-color: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-content .main-content-header {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Sideright */
+.sideright {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 40px;
+  position: absolute;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sideright .sideright-search {
+  margin-top: 10px;
+}
+
+.sideright .sideright-search .input-group-text {
+  border: 0px;
+  color: rgb(101, 119, 134);
+  background-color: #e6ecf0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.sideright .sideright-search .form-control {
+  border: 0px;
+  background-color: #e6ecf0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.sideright .sideright-search .form-control:focus {
+  outline:0px !important;
+  -webkit-appearance:none;
+  box-shadow: none !important;
+}
+
+.sideright .list-group .list-group-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sideright .list-group .list-group-item.header {
+  font-weight: bold;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.sideright .list-group .list-group-item.list-group-item-action {
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  background: rgb(230, 236, 240);
+}
+
+.sideright .list-group .list-group-item.list-group-item-action.list-link {
+  color: rgb(29, 161, 242);
+}
